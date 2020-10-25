@@ -134,17 +134,17 @@ pre code { white-space: pre-wrap; }
 /*	02) FORM ELEMENTS
 /*------------------------------------------------------------------*/
 
-textarea{
+/*textarea{
 	border-radius:0;
 	font-size:13px;
 	resize:vertical;
 	font-family:"Raleway";
 	letter-spacing: 1.2px !important;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
-	-ms-box-sizing: border-box;     /* IE 10 + */
-	box-sizing: border-box;         /* Opera/IE 8+ */
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box;    
+	-ms-box-sizing: border-box;     
+	box-sizing: border-box;        
 	
 	line-height:1.4;
 	padding:10px!important;
@@ -156,8 +156,8 @@ textarea{
 	    -ms-transition: all .3s ease;
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
-}
-input[type="text"],
+}*/
+/*input[type="text"],
 input[type="password"],
 input[type="datetime"],
 input[type="datetime-local"],
@@ -177,10 +177,10 @@ input[type="color"],
 	min-width:auto;
 	letter-spacing:1.4px;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
-	-ms-box-sizing: border-box;     /* IE 10 + */
-	box-sizing: border-box;         /* Opera/IE 8+ */
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box;    
+	-ms-box-sizing: border-box;     
+	box-sizing: border-box;         
 	
 	font-family:"Raleway";
 	
@@ -195,7 +195,7 @@ input[type="color"],
 	    -ms-transition: all .3s ease;
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
-}
+}*/
 
 textarea:focus,
 input[type="text"]:focus,

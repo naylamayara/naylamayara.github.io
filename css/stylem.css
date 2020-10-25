@@ -39,7 +39,7 @@ html {
 }
 body{
 	font-family: "Roboto";
-	font-size: 16px;
+	/*font-size: 16px;*/
 	line-height: 2;
 	letter-spacing: 0.8px;
 	word-wrap: break-word;
@@ -681,7 +681,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	padding-top: 100px;
 }
 .arlo_tm_about .leftbox{
-	width: 35%;
+	width: 20%;
 	float: left;
 	height: auto;
 }
@@ -710,7 +710,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 }
 .arlo_tm_about .leftbox .about_image_wrap img{opacity: 0;}
 .arlo_tm_about .rightbox{
-	width: 65%;
+	width: 80%;
 	height: auto;
 	padding-left: 70px;
 }
@@ -748,7 +748,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 .arlo_tm_about ul li label{
 	font-weight: 500;
 	color: #000;
-	min-width: 85px;
+	/*min-width: 85px;*/
 	display: inline-block;
 }
 .arlo_tm_about .about_short_contact_wrap ul li a{
@@ -1120,7 +1120,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	float: left;
 	position: relative;
 	z-index: 2;
-	padding: 150px 20px 150px 20px;
+	padding: 100px 20px 100px 20px;
 }
 .arlo_tm_testimonial .testimonial_content .content_inner{
 	width: 100%;
@@ -1144,9 +1144,9 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 }
 .arlo_tm_testimonial .testimonial_content .content_inner .texts p{
 	color: #eee;
-	font-size: 18px;
-	font-weight: 300;
+	font-weight: 100;
 	margin-bottom: 32px;
+	min-height:255px;
 }
 .arlo_tm_testimonial .testimonial_content .author{
 	width: 100%;
@@ -1172,7 +1172,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	background-size: cover;
 	border-radius: 100%;
 }
-.arlo_tm_testimonial .testimonial_content .author .job{padding-left: 25px;}
+.arlo_tm_testimonial .testimonial_content .author .job{padding-left: 25px;min-width: 135px;}
 .arlo_tm_testimonial .testimonial_content .author .job h3{
 	color: #fff;
 	font-size: 20px;
@@ -1893,8 +1893,8 @@ body.dark .arlo_tm_popup_news .des_serv_list ul li:before{background-color: #fff
 body.dark .arlo_tm_popup_news .date a{color: #fff;}
 body.dark .arlo_tm_popup_news .date a:hover{border-bottom-color: #fff;}
 body.dark .arlo_tm_contact{background-color: #191919;}
-body.dark .arlo_tm_contact .fields ul li input{background-color: transparent;border: 1px solid rgba(255,255,255,.2);color: #fff;}
-body.dark .arlo_tm_contact .fields .last textarea{background-color: transparent;border: 1px solid rgba(255,255,255,.2);color: #fff;}
+body.dark .arlo_tm_contact .fields ul li input{background-color: transparent;border: 1px solid rgba(255,255,255,.2);color: #fff;padding: 10px!important;}
+body.dark .arlo_tm_contact .fields .last textarea{background-color: transparent;border: 1px solid rgba(255,255,255,.2);color: #fff;padding: 10px!important;}
 body.dark .arlo_tm_footer{background-color: #101010;}
 body.dark .arlo_tm_classic_menu.animate{background-color: #000;box-shadow: 0px 0px 20px rgba(255,255,255,.1);}
 body.dark .arlo_tm_classic_menu.animate .logo .light{display: block;}
@@ -2238,7 +2238,7 @@ body.classic .arlo_tm_contact .returnmessage{text-align: center;}
 .arlo_tm_extra_hero_content .text{
 	color: #fff;
 	opacity: .7;
-	margin-bottom: 35px;
+	/*margin-bottom: 35px;*/
 }
 .arlo_tm_extra_hero_content .buttons_extra{
 	width: 100%;
@@ -2246,6 +2246,7 @@ body.classic .arlo_tm_contact .returnmessage{text-align: center;}
 	clear: both;
 	display: flex;
 	align-items: center;
+	padding: 30px 0px 10px 0px;
 }
 .arlo_tm_extra_hero_content .button_one a{
 	text-decoration: none;
@@ -2334,7 +2335,8 @@ body.classic .arlo_tm_contact .returnmessage{text-align: center;}
 	.arlo_tm_leftpart .inner .menu ul li a{padding: 10px 0px;}
 	body.rtl .arlo_tm_rightpart{padding-right: 360px;}
 }
-@media (max-width: 1400px) {
+/*@media (max-width: 1400px) {*/
+@media (max-width: 1200px) {
 	.arlo_tm_about{margin-bottom: 80px;}
 	.arlo_tm_about .leftbox{display: none;}
 	.arlo_tm_about .rightbox{padding-left: 0px;width: 100%;}

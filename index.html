@@ -19,62 +19,16 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:200i,300,300i,400,400i,500,500i,600,700,700i,800&amp;display=swap" rel="stylesheet">
 
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/plugins.css" />
 <link rel="stylesheet" type="text/css" href="css/stylem.css" />
 <style>
-.col-center {
-	margin: 0 auto;
-	float: none !important;
-}
 .carousel {
-	padding: 0 70px;
-	min-height: 329px;
+	min-height: 420px;
 }
 .carousel .item {
-	color: #999;
-	font-size: 14px;
 	overflow: hidden;
     min-height: 290px;
-}
-.carousel .item .img-box {
-	width: 135px;
-	height: 135px;
-	margin: 0 auto;
-	padding: 5px;
-	border: 1px solid #ddd;
-	border-radius: 50%;
-}
-.carousel .img-box img {
-	width: 100%;
-	height: 100%;
-	display: block;
-	border-radius: 50%;
-}
-.carousel .testimonial {
-	padding: 30px 0 10px;
-}
-.carousel .overview {	
-	font-style: italic;
-}
-.carousel .overview b {
-	text-transform: uppercase;
-	color: #7AA641;
-}
-.carousel .carousel-control {
-	width: 40px;
-    height: 40px;
-    margin-top: -20px;
-    top: 50%;
-	background: none;
-}
-.carousel-control i {
-    font-size: 68px;
-	line-height: 42px;
-    position: absolute;
-    display: inline-block;
-	color: rgba(0, 0, 0, 0.8);
-    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
 }
 .carousel .carousel-indicators {
 	bottom: -40px;
@@ -85,19 +39,14 @@
 	margin: 1px 3px;
 	border-radius: 50%;
 }
-.carousel-indicators li {	
-	background: #999;
-	border-color: transparent;
-	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+.carousel-indicators li {
+	background: #fff;
 }
 .carousel-indicators li.active {	
-	background: #555;		
-	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+	background: #fec803;		
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Open+Sans" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://use.fontawesome.com/b9b213f104.js"></script>
 
 <!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
 <!-- /STYLES -->
@@ -252,15 +201,15 @@
 											<ul>
 												<li>
 													<img class="svg" src="img/svg/calendar-4.svg" alt="" />
-													<span><label>Idade:</label> 24</span>
+													<span><label>Idade:</label> <text id="ageVar">1</text></span>
 												</li>
 												<li>
 													<img class="svg" src="img/svg/location-1.svg" alt="" />
-													<span><label>Cidade:</label> <a class="href_location" href="#">Praia Grande, SP</a></span>
+													<span><label>Cidade:</label> Praia Grande, SP</span>
 												</li>
 												<li>
 													<img class="svg" src="img/svg/study-5.svg" alt="" />
-													<span><label>Formação:</label> <a class="href_location" href="#"> Bacharel em Publicidade e Propaganda</a></span>
+													<span><label>Formação:</label> Publicidade e Propaganda</span>
 												</li>	
 												<li>
 													<img class="svg" src="img/svg/message-3.svg" alt="" />
@@ -271,7 +220,7 @@
 										<div class="buttons">
 											<ul>
 												<li><a href="#"><span>Download CV</span></a></li>
-												<li><a href="#"><span>Enviar Mensagem</span></a></li>
+												<li><a href="#contact"><span>Enviar Mensagem</span></a></li>
 											</ul>
 										</div>
 									</div>
@@ -482,12 +431,12 @@
 										<div class="icon">
 											<img class="svg" src="img/svg/quotes.svg" alt="" />
 										</div>
-										<div id="myCarousel" class="carousel slide" data-ride="carousel">
+										<div id="carouselTestimonial" class="carousel slide" data-ride="carousel">
 											<!-- Carousel indicators -->
 											<ol class="carousel-indicators">
-												<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-												<li data-target="#myCarousel" data-slide-to="1"></li>
-												<li data-target="#myCarousel" data-slide-to="2"></li>
+												<li data-target="#carouselTestimonial" data-slide-to="0" class="active"></li>
+												<li data-target="#carouselTestimonial" data-slide-to="1"></li>
+												<li data-target="#carouselTestimonial" data-slide-to="2"></li>
 											</ol>   
 											<!-- Wrapper for carousel items -->
 											<div class="carousel-inner">
@@ -499,7 +448,7 @@
 																<div class="main" data-img-url="img/about/2.jpg"></div>
 															</div>
 															<div class="job">
-																<h3>André Rittes <a href="https://www.linkedin.com/in/andre-rittes-16829073/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true" style="font-size: initial;color: #fec803;"></i></a></h3>
+																<h3>André Rittes <a href="https://www.linkedin.com/in/andre-rittes-16829073/" target="_blank"><i class="xcon-linkedin" aria-hidden="true" style="font-size: initial;color: #fec803;"></i></a></h3>
 																<span>Jornalista, escritor, professor e redator publicitário</span>
 															</div>
 														</div>
@@ -513,7 +462,7 @@
 																<div class="main" data-img-url="img/about/4.jpg"></div>
 															</div>
 															<div class="job">
-																<h3>Lucas Barcelos <a href="https://www.linkedin.com/in/lucassbarceloss/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true" style="font-size: initial;color: #fec803;"></i></a></h3>
+																<h3>Lucas Barcelos <a href="https://www.linkedin.com/in/lucassbarceloss/" target="_blank"><i class="xcon-linkedin" aria-hidden="true" style="font-size: initial;color: #fec803;"></i></a></h3>
 																<span>Analista de Marketing Digital e Social Media</span>
 															</div>
 														</div>
@@ -527,8 +476,8 @@
 																<div class="main" data-img-url="img/about/3.jpeg"></div>
 															</div>
 															<div class="job">
-																<h3>Otavio Januário <a href="https://www.linkedin.com/in/otavio-janu%C3%A1rio-ramos-b3a95b151/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true" style="font-size: initial;color: #fec803;"></i></a></h3>
-																<span>Gerente de Marketing</span>
+																<h3>Otavio Januário <a href="https://www.linkedin.com/in/otavio-janu%C3%A1rio-ramos-b3a95b151/" target="_blank"><i class="xcon-linkedin" aria-hidden="true" style="font-size: initial;color: #fec803;"></i></a></h3>
+																<span>Gerente de Marketing &nbsp; &nbsp; &nbsp; </span>
 															</div>
 														</div>
 													</div>
@@ -692,6 +641,7 @@
 <!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->	
 <script src="js/plugins.js"></script>
 <script src="js/init.js"></script>
+<script src="js/custom.js"></script>
 <!-- /SCRIPTS -->
 
 </body>
