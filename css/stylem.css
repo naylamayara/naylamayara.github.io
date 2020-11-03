@@ -852,14 +852,16 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	padding-top: 90px;
 }
 .arlo_tm_services .service_inner ul{
-	margin: 0px 0px 0px -50px;
+	margin: 0px 0px 0px 0px;
 	list-style-type: none;
 }
 .arlo_tm_services .service_inner ul li{
 	margin: 0px 0px 50px 0px;
 	float: left;
-	width: 33.3333%;
-	padding-left: 50px;
+	/*width: 33.3333%;*/
+	width: 25%;
+	padding-left: 10px;
+	text-align: center;
 }
 .arlo_tm_services .service_inner ul li .inner{
 	width: 100%;
@@ -886,7 +888,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	margin-bottom: 15px;
 }
 .arlo_tm_services .service_inner ul li .inner h3{
-	font-size: 20px;
+	font-size: 19px;
 	margin-bottom: 20px;
 }
 .arlo_tm_progress_wrap{
@@ -2402,4 +2404,4 @@ body.classic .arlo_tm_contact .returnmessage{text-align: center;}
 }
 @media (max-width: 480px) {
 	.arlo_tm_hero_header .hero_content .name_holder h3{font-size: 35px;}
-}	
+}
