@@ -408,6 +408,9 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	font-family: "Montserrat";
 	font-weight: 500;
 }
+.trigger{
+	font-size: 21px;
+}
 
 /*---------------------------------------------------*/
 /*	04) ARLO CLASSIC MENU
@@ -1117,7 +1120,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	left: 0px;
 	right: 0px;
 	z-index: 1;
-	background-color: rgba(0,0,0,.85);
+	background-color: #f9f9f9;
 }
 .arlo_tm_testimonial .testimonial_content{
 	width: 100%;
@@ -1134,7 +1137,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	clear: both;
 	float: left;
 	position: relative;
-	border: 10px solid rgba(238,238,238,0.2);
+	border: 10px solid rgb(228 165 173 / 30%);
 	padding: 60px 60px 64px 155px;
 }
 .arlo_tm_testimonial .testimonial_content .content_inner .icon{
@@ -1149,7 +1152,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	color: #e4a5ad;
 }
 .arlo_tm_testimonial .testimonial_content .content_inner .texts p{
-	color: #eee;
+	color: #101010;
 	font-weight: 100;
 	margin-bottom: 32px;
 	min-height:255px;
@@ -1180,10 +1183,10 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 }
 .arlo_tm_testimonial .testimonial_content .author .job{padding-left: 25px;min-width: 135px;}
 .arlo_tm_testimonial .testimonial_content .author .job h3{
-	color: #fff;
+	color: #101010;
 	font-size: 20px;
 }
-.arlo_tm_testimonial .testimonial_content .author .job span{color: #eee;}
+.arlo_tm_testimonial .testimonial_content .author .job span{color: #101010;}
 
 /*---------------------------------------------------*/
 /*	10) ARLO TIMELINE
