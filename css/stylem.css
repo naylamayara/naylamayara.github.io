@@ -838,7 +838,9 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	color: #e4a5ad;
 	font-weight: 500;
 }
-
+span.label {
+    color: #101010;
+}
 /*---------------------------------------------------*/
 /*	07) ARLO SERVICES
 /*---------------------------------------------------*/
