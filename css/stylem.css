@@ -153,7 +153,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
     position: absolute;
     height: 50%;
     width: 100%;
-    background-color: #000;
+    background-color: #e4a5ad;
 	
     -webkit-transition: .7s all ease;
     -o-transition: .7s all ease;
@@ -198,6 +198,10 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	clear: both;
 	float: left;
 	padding: 60px;
+}
+.logo a {
+    color: #e4a5ad;
+    font-size: x-large;
 }
 .arlo_tm_leftpart .inner .logo{float: left;}
 .arlo_tm_leftpart .inner .logo .light{display: none;}
@@ -1546,10 +1550,12 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	width: 100%;
 	border: 1px solid rgba(0,0,0,.2);
 	background-color: #fff;
+	padding: 10px;
 }
 .arlo_tm_contact .fields ul li input:focus{
 	outline: none;
 	border: 1px solid rgba(0,0,0,.5);
+	padding: 10px;
 }
 .arlo_tm_contact .fields .last textarea{
 	width: 100%;
@@ -1558,10 +1564,12 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	resize: none;
 	margin-bottom: 20px;
 	background-color: #fff;
+	padding: 10px;
 }
 .arlo_tm_contact .fields .last textarea:focus{
 	outline: none;
 	border: 1px solid rgba(0,0,0,.5);
+	padding: 10px;
 } 
 .arlo_tm_contact .empty_notice{
 	color: #F52225;
@@ -1591,7 +1599,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	height: auto;
 	clear: both;
 	float: left;
-	background-color: #000;
+	background-color: #fff;
 	padding: 42px 0px;
 }
 .arlo_tm_footer .footer_inner{
@@ -1603,10 +1611,10 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	align-items: center;
 	justify-content: space-between;
 }
-.arlo_tm_footer .footer_inner .copy p{color: #fff;}
+.arlo_tm_footer .footer_inner .copy p{color: #101010;}
 .arlo_tm_footer .footer_inner .copy p a{
 	text-decoration: none;
-	color: #fff;
+	color: #101010;
 	font-weight: 500;
 	border-bottom: 1px solid transparent;
 	
