@@ -803,7 +803,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
     height: 100%;
     left: -25%;
     width: 0%;
-    background-color: #000;
+    background-color: #ebcecc;
     transform: skew(50deg);
     transition-duration: .6s;
     z-index: 1;
@@ -2267,7 +2267,7 @@ body.classic .arlo_tm_contact .returnmessage{text-align: center;}
     height: 100%;
     left: -25%;
     width: 0%;
-    background-color: #fff;
+    background-color: #ebcecc;
     transform: skew(50deg);
     transition-duration: .6s;
     z-index: 1;
