@@ -713,7 +713,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	bottom: -25px !important;
 	left: 25px !important;
 	right: -25px !important;
-	border: 10px solid #000;
+	border: 10px solid #e4a5ad;
 }
 .arlo_tm_about .leftbox .about_image_wrap img{opacity: 0;}
 .arlo_tm_about .rightbox{
