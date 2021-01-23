@@ -1155,7 +1155,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	color: #101010;
 	font-weight: 100;
 	margin-bottom: 32px;
-	min-height:255px;
+	/*min-height:255px;*/
 }
 .arlo_tm_testimonial .testimonial_content .author{
 	width: 100%;
@@ -2370,7 +2370,7 @@ body.classic .arlo_tm_contact .returnmessage{text-align: center;}
 	.arlo_tm_progress_wrap .progress_wrap_inner .left{padding-right: 0px;width: 100%;margin-bottom: 50px;}
 	.arlo_tm_progress_wrap .right{padding-left: 0px;width: 100%;}
 	.arlo_tm_testimonial .testimonial_bg .image{display: none;}
-	.arlo_tm_testimonial .testimonial_bg .overlay{background-color: #000;}
+	.arlo_tm_testimonial .testimonial_bg .overlay{background-color: #f9f9f9;}
 	.arlo_tm_popup_news .closer{top: 10px;right: 10px;}
 	body.rtl .arlo_tm_rightpart{padding-right: 0px;}
 	body.rtl .arlo_tm_progress_wrap .progress_wrap_inner .left{padding-left: 0px;}
